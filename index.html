@@ -2,10 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christopher Lee | Web Developer</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="stylesheet/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheet/reset.css">
+  <link rel="stylesheet" href="stylesheet/style.css">
 </head>
 <body>
 
-  <h1>Hello World This Site is currently under Construction</h1>
+  <section class="flexbox-container">
+
+    <nav id="navigation">
+      <div id="about" class="icon"><i class="fa fa-user fa-3x" aria-hidden="true"></i></div>
+      <div id="work" class="icon"><i class="fa fa-briefcase fa-3x" aria-hidden="true"></i></div>
+      <div id="contact" class="icon"><i class="fa fa-phone fa-3x" aria-hidden="true"></i></div>
+    </nav>
+
+    <div id="name-container">
+      <h1 class="title-name">Christopher Lee</h1>
+      <p id="title-position">Web Developer | Code Fanatic | Tech Junkie</p>
+    </div>
+
+    <div id="about-div" class="overlay" style="display:none;">
+      <div id="about-content" class="content">
+        <div id="img"></div>
+
+        <h1 class="title-chris">Hi there, I'm Chris!</h1>
+
+        <p class="bio">I am a Full Stack Web Developer with experience in building responsive web applications using Ruby on Rails / Sinatra, Node.js with Express framework, together with modern front-end languages encompassing JavaScript / jQuery, Saas / CSS3 and HTML5.</p>
+
+        <p class="bio">Technology to me is a way of facilitating meaningful connections between both humans and machines and I am eager to join an agile team where I can learn from talented individuals and at the same time apply my skills to build great products that solve interesting problems.</p>
+      </div>
+    </div>
+
+    <div id="work-div" class="overlay" style="display:none;">
+      <div id="work-content" class="content">Work</div>
+    </div>
+
+    <div id="contact-div" class="overlay" style="display:none;">
+      <div id="contact-content" class="content">
+        <p>Contact Me</p>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="javascript/jquery.js" charset="utf-8"></script>
+  <script src="javascript/app.js" charset="utf-8"></script>
 </body>
 </html>
