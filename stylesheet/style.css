@@ -27,6 +27,7 @@
 	margin:0 1em 0 1em;
 	color: #999999;
 	display:inline-block;
+	transition:0.5s;
 }
 
 .icon:hover {
