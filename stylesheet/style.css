@@ -108,6 +108,17 @@ i {
 	padding-top:2em;
 }
 
+.work-desc {
+	text-align:center;
+	padding-bottom:1em;
+	text-shadow: 5px 5px 10px;
+}
+
+
+.port-btn {
+	margin:0 1em 0em 1em;
+}
+
 .column {
 	transition: 0.3s;
 }
@@ -116,6 +127,7 @@ i {
 	border:1px solid #999999;
 	border-radius:12px;
 	margin-bottom:10px;
+	box-shadow: 0 0 10px;
 	position:relative;
 	transition:0.5s;
 }
