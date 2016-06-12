@@ -6,47 +6,134 @@
   <title>Christopher Lee | Web Developer</title>
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheet/font-awesome.min.css">
-  <link rel="stylesheet" href="stylesheet/reset.css">
+  <link rel="stylesheet" href="stylesheet/skeleton.css">
   <link rel="stylesheet" href="stylesheet/style.css">
 </head>
 <body>
 
-  <div class="flexbox-container">
 
+  <div id="name-container">
+    <h4 class="title-name">Christopher Lee</h4>
+    <p id="title-position">Web Developer | Code Fanatic | Tech Junkie</p>
+  </div>
+
+  <div class="flex-container">
     <nav id="navigation">
       <div id="about" class="icon"><i class="fa fa-user fa-3x" aria-hidden="true"></i></div>
       <div id="work" class="icon"><i class="fa fa-briefcase fa-3x" aria-hidden="true"></i></div>
       <div id="contact" class="icon"><i class="fa fa-phone fa-3x" aria-hidden="true"></i></div>
     </nav>
+  </div>
 
-    <div id="name-container">
+
+  <!-- <div class="flexbox-container"> -->
+
+    <!-- <nav id="navigation">
+      <div id="about" class="icon"><i class="fa fa-user fa-3x" aria-hidden="true"></i></div>
+      <div id="work" class="icon"><i class="fa fa-briefcase fa-3x" aria-hidden="true"></i></div>
+      <div id="contact" class="icon"><i class="fa fa-phone fa-3x" aria-hidden="true"></i></div>
+    </nav> -->
+
+
+    <!-- <div id="name-container">
       <h1 class="title-name">Christopher Lee</h1>
       <p id="title-position">Web Developer | Code Fanatic | Tech Junkie</p>
-    </div>
+    </div> -->
 
     <section id="about-section" class="overlay" style="display:none;">
       <div id="about-content" class="content">
-        <div id="img"></div>
+        <div id="profile-img">
+          <img id="img" src="images/circle2.png" alt="">
+        </div>
 
-        <h1 class="title-chris">Hi there, I'm Chris!</h1>
+        <h4 id="title-chris">Hi there, I'm Chris!</h4>
 
         <p class="bio">I am a Full Stack Web Developer with experience in building responsive web applications using Ruby on Rails / Sinatra, Node.js with Express framework, together with modern front-end languages encompassing JavaScript / jQuery, Saas / CSS3 and HTML5.</p>
 
         <p class="bio">Technology to me is a way of facilitating meaningful connections between both humans and machines and I am eager to join an agile team where I can learn from talented individuals and at the same time apply my skills to build great products that solve interesting problems.</p>
       </div>
+
+      <div class="close">
+        <button class="close-btn">Close</button>
+      </div>
+
     </section>
 
     <section id="work-section" class="overlay" style="display:none;">
-      <div id="work-content" class="content">Work</div>
+      <div id="work-content" class="content">
+        <div class="row">
+          <div class="one-half column">
+            <img class="u-max-full-width" src="http://i.imgur.com/2Oh1cV1.png">
+            <div class="description">
+              <h3>Bit-Tac-Toe</h3>
+              <p class="p-desc">A simple Tic Tac Toe game with a retro touch</p>
+              <a href="https://github.com/hanernlee/WDI-PROJECT-1-Bit-Tac-Toe"><button>GitHub</button></a>
+              <a href="http://hanernlee.github.io/WDI-PROJECT-1-Bit-Tac-Toe/"><button>Demo</button></a>
+            </div>
+          </div>
+
+          <div class="one-half column">
+            <img class="u-max-full-width" src="http://i.imgur.com/VLTt2eq.png">
+            <div class="description">
+              <h3>Fluffagram</h3>
+              <p class="p-desc">Fluffagram is a photo-sharing app for users to share their pet photos.</p>
+              <a href="https://github.com/hanernlee/WDI-PROJECT-2-Fluffagram"><button>GitHub</button></a>
+              <a href="https://fluffagram.herokuapp.com/"><button>Demo</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="one-half column">
+            <img id="project3" class="u-max-full-width" src="http://i.imgur.com/Oc3PmA8.png">
+            <div class="description">
+              <h3>Small Talk</h3>
+              <p class="p-desc">Small Talk is a quick and easy conversation starter app.</p>
+              <a href="https://github.com/hanernlee/WDI-PROJECT-3-SmallTalk"><button>GitHub</button></a>
+              <a href="http://smallchats.herokuapp.com/"><button>Demo</button></a>
+            </div>
+          </div>
+
+          <div class="one-half column">
+            <img id="project4" class="u-max-full-width" src="http://i.imgur.com/1JfMmDb.png">
+            <div class="description">
+              <h3>WDI Conference</h3>
+              <p class="p-desc">A mock technology conference run by the students of General Assembly.</p>
+              <a href="https://github.com/hanernlee/WDI-PROJECT-4-Conference"><button>GitHub</button></a>
+              <a href="https://code-play-wdi-conference.herokuapp.com/"><button>Demo</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="one-half column">
+            <img id="project5" class="u-max-full-width" src="http://i.imgur.com/VA30Pwq.png">
+            <div class="description">
+              <h3>Wi$hList</h3>
+              <p class="p-desc">Wi$hList is a minimalistic smart budgeting app.</p>
+              <a href="https://github.com/hanernlee/WDI-PROJECT-5-WishList"><button>GitHub</button></a>
+              <a href="http://smartwishlist.herokuapp.com/"><button>Demo</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="close-two">
+        <button class="close-btn">Close</button>
+      </div>
+
     </section>
 
     <section id="contact-section" class="overlay" style="display:none;">
       <div id="contact-content" class="content">
         <p>Contact Me</p>
       </div>
+
+      <div class="close">
+        <button class="close-btn">Close</button>
+      </div>
     </section>
 
-  </div>
 
   <script src="javascript/jquery.js" charset="utf-8"></script>
   <script src="javascript/app.js" charset="utf-8"></script>
