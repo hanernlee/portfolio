@@ -159,6 +159,10 @@ i {
 	padding:5px;
 }
 
+.contact-icon:hover {
+	color: #ebebeb;
+}
+
 /*responsive*/
 
 /*iPhone 6+*/
