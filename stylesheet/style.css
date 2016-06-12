@@ -29,6 +29,14 @@
 	display:inline-block;
 }
 
+.icon:hover {
+	background-color:#999999;
+}
+
+.icon:hover .nav-icon {
+	color: #ebebeb;
+}
+
 i {
 	margin-top:16px;
 }
