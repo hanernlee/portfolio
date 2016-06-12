@@ -108,6 +108,10 @@ i {
 	padding-top:2em;
 }
 
+.column {
+	transition: 0.3s;
+}
+
 .u-max-full-width {
 	border:1px solid #999999;
 	border-radius:12px;
