@@ -157,6 +157,7 @@ i {
 
 .contact-icon {
 	padding:5px;
+	transition:0.5s;
 }
 
 .contact-icon:hover {
