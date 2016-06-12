@@ -60,6 +60,11 @@ i {
 	text-align:center;
 }
 
+#about-desc {
+	margin:0 auto;
+	width:60%;
+}
+
 .content {
 	margin: 0 auto;
 	width: 80%;
@@ -131,7 +136,10 @@ i {
 /*responsive*/
 
 /*iPhone 6+*/
-@media screen and (device-aspect-ratio: 16/9) {
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+
 	#title-position {
 		font-size:0.9rem;
 	}
@@ -152,6 +160,15 @@ i {
 	#img {
 		width:20em;
 	}
+
+	#about-desc {
+		width: 90% !important;
+	}
+
+	#about-close-btn {
+		padding-top:2em;
+	}
+
 }
 
 /*iPhone 6*/
@@ -177,9 +194,13 @@ i {
 	#img {
 		width:20em;
 	}
-	
+
 	.p-desc {
 		font-size:1rem;
+	}
+
+	#about-desc {
+		width: 100% !important;
 	}
 
 }
@@ -216,6 +237,10 @@ i {
 
 	h3 {
 		font-size:2rem;
+	}
+
+	#about-desc {
+		width: 100% !important;
 	}
 
 
