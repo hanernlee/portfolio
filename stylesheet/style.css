@@ -121,15 +121,13 @@ i {
 
 .column {
 	transition: 0.3s;
+	height:100%;
+	position:relative;
+	margin-bottom:10px;
 }
 
-.u-max-full-width {
-	border:1px solid #999999;
-	border-radius:12px;
-	margin-bottom:10px;
-	box-shadow: 0 0 10px;
-	position:relative;
-	transition:0.5s;
+.column:hover {
+	box-shadow: 0 0 40px;
 }
 
 .column:hover .description{
@@ -140,9 +138,11 @@ i {
 	opacity:0.1;
 }
 
-.column {
-	height:100%;
+.u-max-full-width {
+	border:1px solid #999999;
+	border-radius:12px;
 	position:relative;
+	transition:0.5s;
 }
 
 .description {
