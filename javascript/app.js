@@ -3,8 +3,9 @@ $(document).ready(function () {
   $('#about').on('click', function() {
     if ($('#about-section').is(':hidden')) {
       $('#about-section').css("display","block");
+      $('#about-desc').css("display","block");
       $('#navigation').css('display','none');
-      $('#name-container').hide();
+      $('#name-container').fadeOut();
     }
   });
 
@@ -26,11 +27,11 @@ $(document).ready(function () {
 
 
   $('.close-btn').on('click', function() {
-    $('#about-section').css("display","none");
+    $('#about-section').css('display','none');
     $('#work-section').css("display","none");
     $('#contact-section').css("display","none");
-    $('#navigation').css('display','block');
-    $('#name-container').show();
+    $('#navigation').fadeIn('slow');
+    $('#name-container').fadeIn('slow');
   });
 
 
