@@ -119,6 +119,22 @@ i {
 	margin:0 1em 0em 1em;
 }
 
+.description {
+	opacity:0;
+	pointer-events: none;
+	margin: 0 auto;
+	width: 80%;
+	text-align:center;
+	position:absolute;
+	top:20%;
+	left:10%;
+	transition: 0.3s;
+}
+
+.p-desc {
+	padding-bottom:1em;
+}
+
 .column {
 	transition: 0.3s;
 	height:100%;
@@ -132,6 +148,7 @@ i {
 
 .column:hover .description, .column:active .description{
 	opacity:1;
+	pointer-events: auto;
 }
 
 .column:hover .u-max-full-width, .column:active .u-max-full-width {
@@ -143,21 +160,6 @@ i {
 	border-radius:12px;
 	position:relative;
 	transition:0.5s;
-}
-
-.description {
-	margin: 0 auto;
-	width: 80%;
-	text-align:center;
-	position:absolute;
-	top:20%;
-	left:10%;
-	opacity:0;
-	transition: 0.5s;
-}
-
-.p-desc {
-	padding-bottom:1em;
 }
 
 #contact-info {
