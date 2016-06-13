@@ -126,15 +126,15 @@ i {
 	margin-bottom:10px;
 }
 
-.column:hover {
+.column:hover, .column:active {
 	box-shadow: 0 0 40px;
 }
 
-.column:hover .description{
+.column:hover .description, .column:active .description{
 	opacity:1;
 }
 
-.column:hover .u-max-full-width{
+.column:hover .u-max-full-width, .column:active .u-max-full-width {
 	opacity:0.1;
 }
 
