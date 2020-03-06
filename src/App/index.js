@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 
 import Menu from '../Menu';
 import Home from '../Home';
@@ -14,6 +14,7 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route path="/work/:id?" component={Work} />
         <Route path="/contact" component={Contact} />
+        <Redirect to="/" />
       </div>
     );
   }
