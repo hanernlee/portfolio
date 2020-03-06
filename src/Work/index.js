@@ -32,11 +32,11 @@ class Work extends Component {
   }
 
   showWork = (work) => {
-    this.props.history.push(`/work/${work.id}`);
+    this.props.history.push(`/portfolio/work/${work.id}`);
   }
 
   removeWork = () => {
-    this.props.history.push('/work');
+    this.props.history.push('/portfolio/work');
   }
 
   onLoad(work) {

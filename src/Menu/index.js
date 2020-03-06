@@ -75,7 +75,7 @@ class Menu extends Component {
         >
           {
             (value) =>
-              <NavLink exact to="/" activeClassName={classes.active} className={classes.firstOpt} style={toCSS(value.translateX, 0, value.scale)}>
+              <NavLink exact to="/portfolio" activeClassName={classes.active} className={classes.firstOpt} style={toCSS(value.translateX, 0, value.scale)}>
                 <i className="fa fa-home fa-2x"/>
               </NavLink>
           }
@@ -86,7 +86,7 @@ class Menu extends Component {
         >
           {
             (value) =>
-              <NavLink exact to="/work" activeClassName={classes.active} className={classes.firstOpt} style={toCSS(value.translate, value.translate, value.scale)}>
+              <NavLink exact to="/portfolio/work" activeClassName={classes.active} className={classes.firstOpt} style={toCSS(value.translate, value.translate, value.scale)}>
                 <i className="fa fa-code fa-2x"/>
               </NavLink>
           }
@@ -97,7 +97,7 @@ class Menu extends Component {
         >
           {
             (value) =>
-            <NavLink exact to="/contact" activeClassName={classes.active} className={classes.thirdOpt} style={toCSS(0, value.translateY, value.scale)}>
+            <NavLink exact to="/portfolio/contact" activeClassName={classes.active} className={classes.thirdOpt} style={toCSS(0, value.translateY, value.scale)}>
               <i className="fa fa-comments fa-2x"/>
             </NavLink>
           }
